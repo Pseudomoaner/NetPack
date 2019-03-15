@@ -17,6 +17,10 @@ Step 2: Run createRoughNetworkSegmentation.m on this image to do rough ridge det
 
 Step 3: Adjust resulting network manually in Fiji (useing the original image as an overlay).
 
+This generates an outline of the droplets:
+
+![Outline network](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net_Network_Corrected.png)
+
 TO 
 3: Repeat for all data, then run findTriangleClusters.m to decide on the boudaries for your morphological classes - adjust these within classifyDropMesh.m
 
@@ -24,6 +28,12 @@ TO
  (dropAreaLowerLim, dropAreaUpperLim, dropThresh and dropProportion) so as to accurately differentiate drops and oil inclusions (based on size and intensity)
  
 5: Proportions of packing types are output as text strings 
+
+One of the outcomes of this script is an image of the triange classification, overlayed on top of the original network:
+
+![Network overlay](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net_Overlay.png)
+
+You can use this to adjust the classification parameters to match your problem (Classification parameters are found in classifyDropMesh.m).
 
 TO GENERATE HEATMAPS
 Step 1: Manually register images in Fiji using transparent overlays and Plugins -> Transform -> Interactive rigid. Save as netX_Reg.tif
@@ -33,6 +43,10 @@ Step 2: Do usual network segmentation and correction stages
 Step 3: Run 'bulkNetworkDrawer.m'. Make sure to change the line 'if c(i) == n' to the appropriate class (0 = no pack, 1 = amorphous,
  2 = square, 3 = hexagonal). Also make sure to change the line 'export_fig([root,stem{St},'_XXX.png'],'-png')' in drawPackingTypes to 
 point to a new image file in each case. 
+
+This generates a binary image of the regions packing under a given regime. For example, here are the hexagonally packed regions of our example network:
+
+![Network hexagonal regions](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net_hex.png)
 
 Step 4: Load all resulting mesh images into Fiji, concatenate into a single stack, then run Image -> Stacks -> Z Project (average)
 
