@@ -7,16 +7,15 @@ Some stages require Fiji/imageJ - download here: https://fiji.sc/#download
 
 We begin with an image of a droplet network, for example:
 
-
+![Raw network](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/net3.tif)
 
 TO CREATE NETWORK OUTLINES
+
 Step 1: Select single basal plane of network in Fiji. Turn 8-bit and do 1 pixel wide Gaussian filtering.
 
 Step 2: Run createRoughNetworkSegmentation.m on this image to do rough ridge detection.
 
 Step 3: Adjust resulting network manually in Fiji (useing the original image as an overlay).
-
-
 
 TO 
 3: Repeat for all data, then run findTriangleClusters.m to decide on the boudaries for your morphological classes - adjust these within classifyDropMesh.m
