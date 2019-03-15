@@ -53,4 +53,4 @@ Step 4: For each packing type, load all resulting binary mesh images into Fiji, 
 
 ![Network hexagonal average](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net_hexAvg.jpg)
 
-Step 5: Run 'makeHeatmaps.m' to create the final normalised heatmaps.
+Step 5: Run 'makeHexagonalHeatmaps.m' to create the final normalised heatmaps. Note that you will also need to provide a skeletonised version of the reference network for this to work.
