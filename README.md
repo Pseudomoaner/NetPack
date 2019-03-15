@@ -7,7 +7,7 @@ We begin with z-stack images of droplet networks. The first stage is to select t
 
 ![Raw network](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net.png)
 
-Each network has been printed under different conditions, with a variable number of repeats performed within a single condition. Each condition will be assocated with a tag 'expX' and each repeat with a tag 'repX'.
+Each network has been printed under different conditions, with a variable number of repeats performed within a single condition. Each condition will be assocated with a tag 'expX' and each repeat with a tag 'repX'. All images should be square and the same dimensions (number of pixels in the x and y-directions).
 
 Save each plane using the format 'RootDir/expX/repX'. For maximum compatibility with pre-existing formatting, ensure the 'expX' string is of the format 'ZZ%i%i%i%w', where %i represents a single digit and %w a single letter. Also ensure that the 'repX' string is of the format 'net_%i', where %i increases from 1 to the total number of repeats in that condition (assumed less than 10).
 
