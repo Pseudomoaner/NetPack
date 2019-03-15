@@ -51,6 +51,6 @@ Step 3: Run 'bulkNetworkDrawer.m'.
 
 Step 4: For each packing type, load all resulting binary mesh images into Fiji, concatenate all repeats into a single stack, then run Image -> Stacks -> Z Project (average). Across all repeats for this experimental condition, for example, this generated the following image:
 
-![Network hexagonal average](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net_hexAvg.png)
+![Network hexagonal average](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net_hexAvg.jpg)
 
 Step 5: Run 'makeHeatmaps.m' to create the final normalised heatmaps.
