@@ -7,7 +7,7 @@ Some stages require Fiji/imageJ - download here: https://fiji.sc/#download
 
 We begin with an image of a droplet network, for example:
 
-![Raw network](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/net2.tif)
+![Raw network](https://raw.githubusercontent.com/Pseudomoaner/NetPack/master/ExampleImages/net.png)
 
 TO CREATE NETWORK OUTLINES
 
