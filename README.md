@@ -1,7 +1,5 @@
 # NetPack
-Network packing analysis. For further details, please see:
-
-**Packing of droplets in 3D-printed networks for synthetic tissues**, Alessandro Alcinesio, Oliver J. Meacock, Rebecca Allan , Carina Monico, Vanessa R. Schild, Idil Cazimoglu, Matthew Cornall, Ravinash Krishna Kumar, Hagan Bayley. *Nature Communications*, (accepted, 2020).
+Network packing analysis.
 
 This pipeline is only semi-automated, so requires some degree of user input. Some stages will require you to use Fiji/imageJ - download here: https://fiji.sc/#download
 
@@ -68,3 +66,7 @@ Step 4: For each packing type, load all resulting binary mesh images into Fiji, 
 </p>
 
 Step 5: Run 'makeHexagonalHeatmaps.m' to create the final normalised heatmaps. Note that you will also need to provide a skeletonised version of the reference network for this to work.
+
+## References
+
+**Packing of droplets in 3D-printed networks for synthetic tissues**, Alessandro Alcinesio, Oliver J. Meacock, Rebecca Allan , Carina Monico, Vanessa R. Schild, Idil Cazimoglu, Matthew Cornall, Ravinash Krishna Kumar, Hagan Bayley. *Nature Communications*, (accepted, 2020).
