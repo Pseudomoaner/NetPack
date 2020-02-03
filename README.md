@@ -1,5 +1,7 @@
 # NetPack
-Network packing analysis. For further details, please see 'Packing of droplets in 3D-printed networks for synthetic tissues', Alessandro Alcinesio, Oliver J. Meacock, Rebecca G. Allan, Carina Monico, Ravinash Krishna Kumar and Hagan Bayley.
+Network packing analysis. For further details, please see:
+
+**Packing of droplets in 3D-printed networks for synthetic tissues**, Alessandro Alcinesio, Oliver J. Meacock, Rebecca Allan , Carina Monico, Vanessa R. Schild, Idil Cazimoglu, Matthew Cornall, Ravinash Krishna Kumar, Hagan Bayley. *Nature Communications*, (accepted, 2020).
 
 This pipeline is only semi-automated, so requires some degree of user input. Some stages will require you to use Fiji/imageJ - download here: https://fiji.sc/#download
 
