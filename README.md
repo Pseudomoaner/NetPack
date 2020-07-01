@@ -69,4 +69,4 @@ Step 5: Run 'makeHexagonalHeatmaps.m' to create the final normalised heatmaps. N
 
 ## References
 
-**Packing of droplets in 3D-printed networks for synthetic tissues**, Alessandro Alcinesio, Oliver J. Meacock, Rebecca Allan , Carina Monico, Vanessa R. Schild, Idil Cazimoglu, Matthew Cornall, Ravinash Krishna Kumar, Hagan Bayley. *Nature Communications*, (accepted, 2020).
+Alcinesio, A., Meacock, O.J., Allan, R.G. et al. **Controlled packing and single-droplet resolution of 3D-printed functional synthetic tissues.** Nat Commun 11, 2105 (2020). https://doi.org/10.1038/s41467-020-15953-y
